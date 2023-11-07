@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "MobStruct",
+  "name": "sc_physics_step",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "character info",
-    "path": "folders/Scripts/character info.yy",
+    "name": "physics script",
+    "path": "folders/Scripts/physics script.yy",
   },
 }

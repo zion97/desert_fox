@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_t_temp",
-  "bbox_bottom": 159,
-  "bbox_left": 0,
-  "bbox_right": 219,
+  "bbox_bottom": 319,
+  "bbox_left": 16,
+  "bbox_right": 223,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5964e09e-564b-44e5-8e5c-2512d482edc4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ad774ef1-cfa3-4a3b-a03e-a98ac8120b83",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 400,
+  "height": 320,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d7371bf0-2763-4b2e-97fb-29463e1ebb5e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2a0a10f3-9e04-4619-989b-365bda4d4a98","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5964e09e-564b-44e5-8e5c-2512d482edc4","path":"sprites/spr_t_temp/spr_t_temp.yy",},},},"Disabled":false,"id":"f0965091-5bdd-40a4-8ce5-0c95e772118c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ad774ef1-cfa3-4a3b-a03e-a98ac8120b83","path":"sprites/spr_t_temp/spr_t_temp.yy",},},},"Disabled":false,"id":"eb74d0aa-86db-4e7b-bc28-00c97f8d14c8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 400,
+  "width": 256,
 }
