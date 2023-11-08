@@ -4,7 +4,10 @@
   "name": "obj_pa_character",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_physics","path":"objects/obj_pa_physics/obj_pa_physics.yy",},"propertyId":{"name":"create_sc","path":"objects/obj_pa_physics/obj_pa_physics.yy",},"value":"sc_character_create",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_physics","path":"objects/obj_pa_physics/obj_pa_physics.yy",},"propertyId":{"name":"step_sc","path":"objects/obj_pa_physics/obj_pa_physics.yy",},"value":"sc_character_step",},
+  ],
   "parent": {
     "name": "parent object",
     "path": "folders/Objects/parent object.yy",
@@ -26,7 +29,9 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"c_create_sc","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"sc_dump","varType":5,},
+  ],
   "solid": false,
   "spriteId": null,
   "spriteMaskId": null,

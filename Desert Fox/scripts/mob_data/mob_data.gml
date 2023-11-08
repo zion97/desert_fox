@@ -2,8 +2,12 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_mob_bandit01_data()
 {
+	ind_hp_max		= 80;
+	ind_hp			= 80;
 	ind_walk_spd	= 1.5;
 	ind_run_spd		= 3.0;
+	
+	ind_action_sc	= sc_ai_patrol;
 	
 	spr_stand1		= spr_bandit01_stand1;
 	spr_stand2		= spr_bandit01_stand2;
