@@ -6,6 +6,7 @@ function sc_mob_bandit01_data()
 	ind_hp			= 80;
 	ind_walk_spd	= 1.5;
 	ind_run_spd		= 3.0;
+	ind_ally		= 2;
 	
 	ind_action_sc	= sc_ai_patrol;
 	

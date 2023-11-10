@@ -2,9 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_ai_patrol()
 {
-	if (ind_ad_target != -1)	return;
-	
-	//var _col_index	= x + (x - bbox_left + 16)*dir;
+	if (ind_ad_target != noone)	return;
 	
 	if (ind_state == 0)	
 	{

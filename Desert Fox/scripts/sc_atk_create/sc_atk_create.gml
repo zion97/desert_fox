@@ -1,10 +1,7 @@
 // v2.3.0에 대한 스크립트 어셋 변경됨 자세한 정보는
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
-function sc_global_value()
+function sc_atk_create()
 {
-	global.save_file	= "saveFile";
+	atk_dmg		= 0;
 	
-	global.pause		= 0;
-	
-	sc_ally_set();
 }

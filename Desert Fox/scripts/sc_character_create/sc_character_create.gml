@@ -7,6 +7,9 @@ function sc_character_create()
 	ind_hp			= 10;			//체력
 	ind_walk_spd	= 1.5;			//걷기 속도
 	ind_run_spd		= 3.0;			//달리기 속도
+	ind_ally		= 1;			//피아식별 변수
+	ind_ad_width	= 100;			//몹 에드 너비
+	ind_ad_height	= 50;			//몹 에드 높이
 	
 	//동작 코드
 	ind_action_sc	= sc_dump;		//hp > 0일 때 동작 코드
@@ -23,7 +26,7 @@ function sc_character_create()
 	c_create_sc();
 	
 	//AI 제어용 변수
-	ind_ad_target	= -1;			//공격 목표 인스턴스
+	ind_ad_target	= noone;		//공격 목표 인스턴스
 	ind_ad_index	= -1;			//공격 목표 수치
 	ind_process		= 0;			//프레임 변수
 	ind_state		= 0;			//상태 변수
