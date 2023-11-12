@@ -2,9 +2,21 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_ai_patrol()
 {
-	if (ind_ad_target != noone)	return;
+	if (ind_ad_target != noone)	return false;
 	
-	if (ind_state == 0)	
+	if (ind_state == 0)
+	{
+		sc_character_stand1();
+		ind_process--;
+		
+		if (ind_process < 0)
+		{
+			dir			= dir * -1;
+			ind_state	= 1;
+			ind_process	= irandom_range(120, 300);
+		}
+	}
+	else if (ind_state == 1)	
 	{
 		sc_character_walk();
 		ind_process--;
@@ -14,19 +26,9 @@ function sc_ai_patrol()
 			|| (sc_get_col(_col_index, bbox_bottom + 8) == 0 && !is_jump) || ind_process < 0)
 		{
 			ind_process	= irandom_range(60, 150);
-			ind_state	= 1;
-		}
-	}
-	else if (ind_state == 1)
-	{
-		sc_character_stand1();
-		ind_process--;
-		
-		if (ind_process < 0)
-		{
-			dir			= dir * -1;
 			ind_state	= 0;
-			ind_process	= irandom_range(120, 300);
 		}
 	}
+	
+	return true;
 }

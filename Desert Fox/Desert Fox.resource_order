@@ -14,6 +14,7 @@
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
+    {"name":"atk ef script","order":7,"path":"folders/Scripts/atk ef script.yy",},
     {"name":"character AI script","order":6,"path":"folders/Scripts/character AI script.yy",},
     {"name":"character info","order":1,"path":"folders/Scripts/character info.yy",},
     {"name":"character script","order":5,"path":"folders/Scripts/character script.yy",},
@@ -67,7 +68,6 @@
     {"name":"Ultimate Camera","order":1,"path":"folders/Sprites/Ultimate Camera.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"atk ef script","order":7,"path":"folders/Scripts/atk ef script.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"uc_set_debug_mode","order":3,"path":"scripts/uc_set_debug_mode/uc_set_debug_mode.yy",},
@@ -83,6 +83,7 @@
     {"name":"sc_ally_set","order":2,"path":"scripts/sc_ally_set/sc_ally_set.yy",},
     {"name":"uc_delete_instance_following_list","order":3,"path":"scripts/uc_delete_instance_following_list/uc_delete_instance_following_list.yy",},
     {"name":"uc_init_static","order":2,"path":"scripts/uc_init_static/uc_init_static.yy",},
+    {"name":"sc_ai_de1","order":2,"path":"scripts/sc_ai_de1/sc_ai_de1.yy",},
     {"name":"uc_set_view_size","order":2,"path":"scripts/uc_set_view_size/uc_set_view_size.yy",},
     {"name":"uc_add_instance_following_list","order":2,"path":"scripts/uc_add_instance_following_list/uc_add_instance_following_list.yy",},
     {"name":"uc_macros","order":3,"path":"scripts/uc_macros/uc_macros.yy",},

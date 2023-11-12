@@ -10,6 +10,7 @@ function sc_character_create()
 	ind_ally		= 1;			//피아식별 변수
 	ind_ad_width	= 100;			//몹 에드 너비
 	ind_ad_height	= 50;			//몹 에드 높이
+	ind_ad_delay	= 60;			//몹 조우 대기
 	
 	//동작 코드
 	ind_action_sc	= sc_dump;		//hp > 0일 때 동작 코드
