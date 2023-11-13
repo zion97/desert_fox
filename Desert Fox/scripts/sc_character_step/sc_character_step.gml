@@ -6,10 +6,27 @@ function sc_character_step()
 	
 	if (ind_hp > 0)
 	{
-		ind_action_sc();
+		if (ind_stun > 0)	ind_stun--;
+		sc_ai_hit();
+		
+		if (ind_control == 0)
+		{
+			ind_action1_sc();
+		}
+		else if (ind_control == 1)
+		{
+			
+		}
 	}
 	else
 	{
-		ind_death_sc();
+		if (!ind_die)
+		{
+			ind_process	= 0;
+			ind_state	= -1;
+			ind_die		= true;
+			speed_x		= 0;
+		}
+		ind_die_sc();
 	}
 }

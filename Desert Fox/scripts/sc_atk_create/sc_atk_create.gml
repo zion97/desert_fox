@@ -2,6 +2,10 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_atk_create()
 {
-	atk_dmg		= 0;
+	atk_dmg			= 0;
+	atk_hit_num		= 4;
+	atk_shock		= 0;
 	
+	atk_hit_sum		= 0;
+	atk_hit_array	= array_create(10, noone);
 }

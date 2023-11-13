@@ -8,11 +8,16 @@ function sc_mob_bandit01_data()
 	ind_run_spd		= 3.0;
 	ind_ally		= 3;
 	
-	ind_action_sc	= sc_ai_patrol;
+	ind_action1_sc	= sc_ai_de1;
+	ai_de1_atk1		= sc_bandit1_atk1;
+	ind_die_sc		= sc_ai_die_4;
 	
 	spr_stand1		= spr_bandit01_stand1;
 	spr_stand2		= spr_bandit01_stand2;
 	spr_walk		= spr_bandit01_walk;
 	spr_run			= spr_bandit01_run;
+	spr_hit			= spr_bandit01_hit;
+	spr_die			= spr_bandit01_die;
+	spr_backstep	= spr_bandit01_backstep;
 }
 

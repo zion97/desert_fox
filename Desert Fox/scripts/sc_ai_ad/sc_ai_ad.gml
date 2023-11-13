@@ -8,11 +8,11 @@ function sc_ai_ad()
 											obj_pa_character, true, true);
 		with (_inst)
 		{
-			if (global.ally[other.ind_ally][ind_ally] >= 2)
+			if (global.ally[other.ind_ally][ind_ally] >= 2 && ind_hp > 0)
 			{
 				other.ind_ad_target	= id;
-				other.ind_ad_index	= 600;
-				other.ind_state		= 0;
+				other.ind_ad_index	= 1200;
+				other.ind_state		= 10;
 				other.ind_process	= ind_ad_delay;
 			}
 		}
@@ -23,19 +23,28 @@ function sc_ai_ad()
 		
 		with (_inst)
 		{
-			if (x < other.x - other.ind_ad_width*1.5 || x > other.x + other.ind_ad_width*1.5 ||
-				y < other.y - other.ind_ad_height*1.5 || y > other.y + other.ind_ad_height*1.5)
+			if (x < other.x - other.ind_ad_width || x > other.x + other.ind_ad_width ||
+				y < other.y - other.ind_ad_height || y > other.y + other.ind_ad_height)
 			{
 				other.ind_ad_index--;
 			}
+			if (other.ind_ad_index > 600)
+			{
+				other.ind_ad_index--;
+			}
+			if (ind_hp <= 0)
+			{
+				other.ind_ad_index = -1;
+			}
 		}
 		
-		if (ind_ad_target < 0)
+		if (ind_ad_index < 0)
 		{
-			ind_ad_target	= noone;
-			ind_ad_index	= -1;
-			ind_state		= 0;
-			ind_process		= ind_ad_delay;
+			if (!(alarm[0] > 0))	alarm[0]	= ind_ad_delay/2;
+			//ind_ad_target	= noone;
+			//ind_ad_index	= -1;
+			//ind_state		= 0;
+			//ind_process		= ind_ad_delay;
 		}
 	}
 }
