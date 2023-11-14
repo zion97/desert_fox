@@ -6,6 +6,7 @@ function sc_atk_hit(_inst)
 	var _shock		= atk_shock;
 	var _ad			= atk_ad_index;
 	var _atk_inst	= atk_inst;
+	var _dir		= dir;
 	
 	with (_inst)
 	{
@@ -15,6 +16,8 @@ function sc_atk_hit(_inst)
 		ind_hit		+= _shock;
 		
 		ind_knock	= _shock/2;
+		
+		ind_hit_dir	= _dir * -1;
 		
 		if (ind_ad_index < _ad)
 		{

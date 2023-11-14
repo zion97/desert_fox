@@ -14,6 +14,7 @@ function sc_ai_ad()
 				other.ind_ad_index	= 1200;
 				other.ind_state		= 10;
 				other.ind_process	= ind_ad_delay;
+				if (alarm[0] > 0)	alarm[0]	= -1;
 			}
 		}
 	}
@@ -28,7 +29,7 @@ function sc_ai_ad()
 			{
 				other.ind_ad_index--;
 			}
-			if (other.ind_ad_index > 600)
+			if (other.ind_ad_index > 300)
 			{
 				other.ind_ad_index--;
 			}
@@ -37,14 +38,14 @@ function sc_ai_ad()
 				other.ind_ad_index = -1;
 			}
 		}
-		
 		if (ind_ad_index < 0)
 		{
 			if (!(alarm[0] > 0))	alarm[0]	= ind_ad_delay/2;
-			//ind_ad_target	= noone;
-			//ind_ad_index	= -1;
+			ind_ad_target	= noone;
+			ind_ad_index	= -1;
 			//ind_state		= 0;
 			//ind_process		= ind_ad_delay;
 		}
 	}
+	
 }

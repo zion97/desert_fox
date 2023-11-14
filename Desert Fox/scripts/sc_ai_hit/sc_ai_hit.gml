@@ -4,8 +4,8 @@ function sc_ai_hit()
 {
 	if (ind_knock > 0)
 	{
-		speed_x	= dir * -5;
-		if (ind_knock < 5)	speed_x	= dir * ind_knock * -1;
+		speed_x	= ind_hit_dir * -5;
+		if (ind_knock < 5)	speed_x	= ind_hit_dir * ind_knock * -1;
 		ind_knock = round(ind_knock) -1;
 	}
 	
@@ -13,14 +13,16 @@ function sc_ai_hit()
 	{
 		sprite_index	= spr_hit;
 		ind_state		= -2;
+		dir				= ind_hit_dir;
 	}
 	
 	if (ind_state == -2)
 	{
 		if (ind_hit <= ind_hit_max)
 		{
+			var _i		= irandom_range(-10, 10);
 			ind_state	= 10;
-			ind_process	= ind_ad_delay;
+			ind_process	= ind_ad_delay + _i;
 		}
 	}
 	if (ind_hit > ind_hit_max) ind_hit -= 2;

@@ -12,6 +12,7 @@
     {"name":"inst_5F0D313F","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_B000C6E","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_43F31169","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_3D31364E","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -22,6 +23,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5F0D313F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_mob_bandit01","path":"objects/obj_mob_bandit01/obj_mob_bandit01.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":224.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_B000C6E","colour":4278190335,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_mob_bandit01","path":"objects/obj_mob_bandit01/obj_mob_bandit01.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":592.0,"y":224.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_43F31169","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Camera","path":"objects/Camera/Camera.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":96.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3D31364E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":224.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"tile_sprite","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
 -71,34,1,35,-14,-2147483648,-71,34,1,35,-14,-2147483648,-71,34,1,35,-14,-2147483648,-71,34,1,35,-14,-2147483648,-71,34,1,35,-14,-2147483648,-71,34,1,35,-14,-2147483648,2,34,22,-42,50,1,21,-15,34,1,22,-10,50,1,51,-14,-2147483648,2,34,35,-42,0,1,33,-15,34,1,35,-25,-2147483648,2,34,35,-42,0,1,33,-15,34,1,35,-25,-2147483648,2,34,35,-42,0,1,33,

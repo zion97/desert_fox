@@ -5,6 +5,7 @@ function sc_ai_de1()
 	sc_ai_ad();
 	sc_ai_patrol();
 	
+	//if (ind_ad_target == noone) return;
 	if (ind_state == 10)
 	{
 		with (ind_ad_target)
@@ -17,15 +18,18 @@ function sc_ai_de1()
 		ind_process--;
 		if (ind_process < 0)
 		{
-			if (abs(x - ind_ad_target.x) < 50)
+			with (ind_ad_target)
 			{
-				ind_state	= 13;
-				ind_process	= 0;
-			}
-			else
-			{
-				ind_state	= 11;
-				ind_process	= 0;
+				if (abs(x - other.x) < 50)
+				{
+					other.ind_state	= 13;
+					other.ind_process	= 0;
+				}
+				else
+				{
+					other.ind_state	= 11;
+					other.ind_process	= 0;
+				}
 			}
 		}
 	}
@@ -36,7 +40,7 @@ function sc_ai_de1()
 			if (x > other.x)	other.dir	= 1;
 			else				other.dir	= -1;
 			
-			if (abs(x - other.x) < 100)
+			if (abs(x - other.x) < 80)
 			{
 				other.ind_state	= 12;
 			}

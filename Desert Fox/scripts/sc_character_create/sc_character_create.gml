@@ -15,7 +15,7 @@ function sc_character_create()
 	ind_stun_max	= 120;			//기절치
 	
 	//동작 코드
-	ind_action1_sc	= sc_dump;		//hp > 0일 때 동작 코드
+	ind_action1_sc	= sc_dump;		//hp > 0일 때 동작 코드 1
 	ind_die_sc		= sc_dump;		//hp < 0일 때 동작 코드
 	
 	//기본 스프라이트
@@ -39,5 +39,6 @@ function sc_character_create()
 	ind_die			= false;		//죽었는가
 	ind_hit			= 0;			//경직치
 	ind_stun		= 0;			//기절치
-	ind_knock		= 0;
+	ind_knock		= 0;			//넉백치
+	ind_hit_dir		= 1;			//넉백 방향
 }
