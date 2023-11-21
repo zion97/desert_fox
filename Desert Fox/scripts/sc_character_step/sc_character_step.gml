@@ -3,6 +3,11 @@
 function sc_character_step()
 {
 	image_xscale	= dir;
+	ind_sa			= 0;
+	if (!is_jump)
+	{
+		can_jump	= true;
+	}
 	
 	if (ind_hp > 0)
 	{
@@ -15,7 +20,7 @@ function sc_character_step()
 		}
 		else if (ind_control == 1)
 		{
-			
+			ind_action2_sc();
 		}
 	}
 	else

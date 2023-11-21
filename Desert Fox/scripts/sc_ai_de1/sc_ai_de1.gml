@@ -2,8 +2,8 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_ai_de1()
 {
-	sc_ai_ad();
 	sc_ai_patrol();
+	sc_ai_ad();
 	
 	//if (ind_ad_target == noone) return;
 	if (ind_state == 10)

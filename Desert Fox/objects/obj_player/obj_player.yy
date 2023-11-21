@@ -5,7 +5,7 @@
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_character","path":"objects/obj_pa_character/obj_pa_character.yy",},"propertyId":{"name":"c_create_sc","path":"objects/obj_pa_character/obj_pa_character.yy",},"value":"sc_player_create",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pa_character","path":"objects/obj_pa_character/obj_pa_character.yy",},"propertyId":{"name":"c_create_sc","path":"objects/obj_pa_character/obj_pa_character.yy",},"value":"sc_pl_create",},
   ],
   "parent": {
     "name": "player",
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_player_stand1",
-    "path": "sprites/spr_player_stand1/spr_player_stand1.yy",
+    "name": "spr_pl_stand1",
+    "path": "sprites/spr_pl_stand1/spr_pl_stand1.yy",
   },
   "spriteMaskId": null,
   "visible": true,

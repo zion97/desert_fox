@@ -6,5 +6,9 @@ function sc_global_value()
 	
 	global.pause		= 0;
 	
+	global.cam_mode		= 0;
+	global.pl_id		= noone;
+	global.target_id	= noone;
+	
 	sc_ally_set();
 }

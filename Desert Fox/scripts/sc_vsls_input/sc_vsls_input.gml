@@ -12,7 +12,7 @@ function sc_vsls_input()
 		global.key_bind[1]	= vk_down;
 		global.key_bind[2]	= vk_left;
 		global.key_bind[3]	= vk_right;
-		global.key_bind[4]	= ord("X");;
+		global.key_bind[4]	= ord("X");
 		global.key_bind[5]	= ord("C");
 		global.key_bind[6]	= ord("Z");
 		global.key_bind[7]	= ord("A");

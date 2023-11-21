@@ -1,7 +1,7 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 
-if (global.pause <= 0)
+if (global.pause == 0)
 {
 	image_speed	= 1;
 	sc_physics_step();		//중력, 충돌 등 물리 처리 스크립트

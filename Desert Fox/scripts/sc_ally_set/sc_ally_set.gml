@@ -14,6 +14,7 @@ function sc_ally_set()
 	global.ally[0][1]	= 0;
 	global.ally[0][2]	= 3;
 	global.ally[0][3]	= 3;
+	global.ally[0][4]	= 3;
 	
 	global.ally[3][0]	= 3;
 	global.ally[3][1]	= 3;

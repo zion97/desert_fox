@@ -297,10 +297,10 @@ var hit_y = lengthdir_y(hit_length*view_total_scale, hit_direction);
 
 // Clamp the camera to the room bounds
 if room_bounds_enabled {
-	x = clamp(x, view_width*view_total_scale/2, room_width-view_width*view_total_scale/2);
-	y = clamp(y, view_height*view_total_scale/2, room_height-view_height*view_total_scale/2);
-	target_x = clamp(target_x, view_width*view_total_scale/2, room_width-view_width*view_total_scale/2);
-	target_y = clamp(target_y, view_height*view_total_scale/2, room_height-view_height*view_total_scale/2);
+	x = clamp(x, view_width*view_total_scale/2 +16, room_width-view_width*view_total_scale/2 -16);
+	y = clamp(y, view_height*view_total_scale/2 +16, room_height-view_height*view_total_scale/2 -16);
+	target_x = clamp(target_x, view_width*view_total_scale/2 +16, room_width-view_width*view_total_scale/2 -16);
+	target_y = clamp(target_y, view_height*view_total_scale/2 +16, room_height-view_height*view_total_scale/2 -16);
 }
 
 // Now join all the different effects to calculate the view position and size

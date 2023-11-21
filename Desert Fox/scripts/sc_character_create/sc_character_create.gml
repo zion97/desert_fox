@@ -18,6 +18,9 @@ function sc_character_create()
 	ind_action1_sc	= sc_dump;		//hp > 0일 때 동작 코드 1
 	ind_die_sc		= sc_dump;		//hp < 0일 때 동작 코드
 	
+	ind_action2_sc	= sc_dump;
+	ind_atk_sc		= sc_dump;
+	
 	//기본 스프라이트
 	spr_stand1		= spr_dump;		//비전투 스탠딩
 	spr_stand2		= spr_dump;		//전투 스탠
@@ -41,4 +44,6 @@ function sc_character_create()
 	ind_stun		= 0;			//기절치
 	ind_knock		= 0;			//넉백치
 	ind_hit_dir		= 1;			//넉백 방향
+	ind_sa			= 0;
+	can_jump		= false;
 }

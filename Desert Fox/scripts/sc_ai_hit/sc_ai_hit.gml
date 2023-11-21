@@ -9,7 +9,7 @@ function sc_ai_hit()
 		ind_knock = round(ind_knock) -1;
 	}
 	
-	if (ind_hit > ind_hit_max)
+	if (ind_hit > ind_hit_max && ind_sa == 0)
 	{
 		sprite_index	= spr_hit;
 		ind_state		= -2;

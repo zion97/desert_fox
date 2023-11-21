@@ -11,7 +11,7 @@ function sc_ai_ad()
 			if (global.ally[other.ind_ally][ind_ally] >= 2 && ind_hp > 0)
 			{
 				other.ind_ad_target	= id;
-				other.ind_ad_index	= 1200;
+				other.ind_ad_index	= 900;
 				other.ind_state		= 10;
 				other.ind_process	= ind_ad_delay;
 				if (alarm[0] > 0)	alarm[0]	= -1;
@@ -35,7 +35,7 @@ function sc_ai_ad()
 			}
 			if (ind_hp <= 0)
 			{
-				other.ind_ad_index = -1;
+				other.ind_ad_index = -100;
 			}
 		}
 		if (ind_ad_index < 0)
