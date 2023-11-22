@@ -17,9 +17,9 @@ function sc_ai_pl_control()
 			dir = 1;
 			sc_character_run();
 		}
-		if (sc_input(5) && can_jump)
+		if (sc_input(5) && can_jump < ind_jump)
 		{
-			can_jump	= false;
+			can_jump++;
 			speed_y		= -6;
 		}
 		if (sc_input(4))

@@ -6,7 +6,7 @@ function sc_character_step()
 	ind_sa			= 0;
 	if (!is_jump)
 	{
-		can_jump	= true;
+		can_jump	= 0;
 	}
 	
 	if (ind_hp > 0)

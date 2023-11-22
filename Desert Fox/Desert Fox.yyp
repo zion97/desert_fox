@@ -89,6 +89,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ultimate Camera","folderPath":"folders/Sprites/Ultimate Camera.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"hug move","folderPath":"folders/Sprites/player sprite/hug move.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"controllerblacklist.csv","CopyToMask":-1,"filePath":"datafiles",},
@@ -116,6 +117,7 @@
     {"id":{"name":"uc_set_view_scale","path":"scripts/uc_set_view_scale/uc_set_view_scale.yy",},},
     {"id":{"name":"sc_physics_create","path":"scripts/sc_physics_create/sc_physics_create.yy",},},
     {"id":{"name":"uc_get_mouse_drag_acceleration","path":"scripts/uc_get_mouse_drag_acceleration/uc_get_mouse_drag_acceleration.yy",},},
+    {"id":{"name":"spr_pl_hug_in","path":"sprites/spr_pl_hug_in/spr_pl_hug_in.yy",},},
     {"id":{"name":"player_hug_script","path":"scripts/player_hug_script/player_hug_script.yy",},},
     {"id":{"name":"obj_pa_obstacle","path":"objects/obj_pa_obstacle/obj_pa_obstacle.yy",},},
     {"id":{"name":"obj_player_soul","path":"objects/obj_player_soul/obj_player_soul.yy",},},
@@ -251,6 +253,7 @@
     {"id":{"name":"sc_dump","path":"scripts/sc_dump/sc_dump.yy",},},
     {"id":{"name":"uc_get_view_inclination","path":"scripts/uc_get_view_inclination/uc_get_view_inclination.yy",},},
     {"id":{"name":"sc_ai_pl_control","path":"scripts/sc_ai_pl_control/sc_ai_pl_control.yy",},},
+    {"id":{"name":"spr_bandit01_hug_in","path":"sprites/spr_bandit01_hug_in/spr_bandit01_hug_in.yy",},},
     {"id":{"name":"spr_dump","path":"sprites/spr_dump/spr_dump.yy",},},
     {"id":{"name":"obj_pa_atk","path":"objects/obj_pa_atk/obj_pa_atk.yy",},},
     {"id":{"name":"uc_set_auto_scale_enabled","path":"scripts/uc_set_auto_scale_enabled/uc_set_auto_scale_enabled.yy",},},

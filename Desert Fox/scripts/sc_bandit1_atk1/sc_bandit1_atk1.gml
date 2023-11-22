@@ -4,25 +4,27 @@ function sc_bandit1_atk1()
 {
 	sprite_index	= spr_bandit01_atk;
 	
-	if (ind_process < 30)
+	var _de	= (1 - ind_control) * 25;
+	
+	if (ind_process < _de+5)
 	{
 		image_index	= 0;
 	}
-	else if (ind_process < 35)
+	else if (ind_process < _de+10)
 	{
 		image_index	= 1;
 	}
-	else if (ind_process < 45)
+	else if (ind_process < _de+20)
 	{
 		image_index	= 1;
 		speed_x		= dir * 3;
 	}
-	else if (ind_process < 50)
+	else if (ind_process < _de+25)
 	{
-		if (ind_process == 45)	sc_atk_inst(spr_bandit01_atk_ef ,10, 20);
+		if (ind_process == _de+20)	sc_atk_inst(spr_bandit01_atk_ef ,10, 20);
 		image_index	= 2;
 	}
-	else if (ind_process < 70)
+	else if (ind_process < _de+45)
 	{
 		image_index	= 3;
 	}

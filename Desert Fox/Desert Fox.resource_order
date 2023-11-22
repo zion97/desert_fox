@@ -77,6 +77,7 @@
     {"name":"Ultimate Camera","order":1,"path":"folders/Sprites/Ultimate Camera.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"hug move","order":3,"path":"folders/Sprites/player sprite/hug move.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"uc_set_debug_mode","order":3,"path":"scripts/uc_set_debug_mode/uc_set_debug_mode.yy",},
@@ -189,6 +190,7 @@
     {"name":"uc_get_view_inclination_acceleration","order":1,"path":"scripts/uc_get_view_inclination_acceleration/uc_get_view_inclination_acceleration.yy",},
     {"name":"sc_dump","order":3,"path":"scripts/sc_dump/sc_dump.yy",},
     {"name":"sc_ai_pl_control","order":8,"path":"scripts/sc_ai_pl_control/sc_ai_pl_control.yy",},
+    {"name":"spr_bandit01_hug_in","order":9,"path":"sprites/spr_bandit01_hug_in/spr_bandit01_hug_in.yy",},
     {"name":"spr_dump","order":3,"path":"sprites/spr_dump/spr_dump.yy",},
     {"name":"obj_pa_atk","order":3,"path":"objects/obj_pa_atk/obj_pa_atk.yy",},
     {"name":"uc_set_auto_scale_enabled","order":2,"path":"scripts/uc_set_auto_scale_enabled/uc_set_auto_scale_enabled.yy",},

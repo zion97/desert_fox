@@ -46,5 +46,6 @@ function sc_character_create()
 	ind_knock		= 0;			//넉백치
 	ind_hit_dir		= 1;			//넉백 방향
 	ind_sa			= 0;			//슈퍼아머
-	can_jump		= false;		//점프 가능 여부
+	can_jump		= 0;			//점프 가능 여부
+	ind_jump		= 1;			//점프 가능 횟수
 }
