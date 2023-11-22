@@ -27,6 +27,6 @@ function sc_pl_run()
 function sc_pl_set_action(_script, _process = 0)
 {
 	ind_state	= 20;
-	ind_atk_sc	= _script;
+	ind_act_sc	= _script;
 	ind_process	= _process;
 }

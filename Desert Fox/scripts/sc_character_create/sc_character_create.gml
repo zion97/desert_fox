@@ -15,11 +15,12 @@ function sc_character_create()
 	ind_stun_max	= 120;			//기절치
 	
 	//동작 코드
-	ind_action1_sc	= sc_dump;		//hp > 0일 때 동작 코드 1
+	ind_action1_sc	= sc_dump;		//hp > 0일 때 동작 코드 1	플레이어는 제어,	몹은 ai
 	ind_die_sc		= sc_dump;		//hp < 0일 때 동작 코드
-	
-	ind_action2_sc	= sc_dump;
 	ind_atk_sc		= sc_dump;
+	
+	ind_action2_sc	= sc_dump;		//hp > 0일 때 동작 코드 2	플레이어는 ai,	몹은 제어
+	ind_act_sc		= sc_dump;
 	
 	//기본 스프라이트
 	spr_stand1		= spr_dump;		//비전투 스탠딩
@@ -44,6 +45,6 @@ function sc_character_create()
 	ind_stun		= 0;			//기절치
 	ind_knock		= 0;			//넉백치
 	ind_hit_dir		= 1;			//넉백 방향
-	ind_sa			= 0;
-	can_jump		= false;
+	ind_sa			= 0;			//슈퍼아머
+	can_jump		= false;		//점프 가능 여부
 }

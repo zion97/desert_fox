@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "sc_ai_de1_2",
+  "name": "sc_pl_atk_soul3",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "character AI script",
-    "path": "folders/Scripts/character AI script.yy",
+    "name": "player",
+    "path": "folders/Scripts/player.yy",
   },
 }

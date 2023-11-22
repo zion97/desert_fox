@@ -11,6 +11,8 @@ function sc_pl_create()
 	ind_action1_sc	= sc_pl_control;
 	ind_die_sc		= sc_ai_die_7;
 	
+	ind_act_sc		= sc_dump;
+	
 	spr_stand1		= spr_pl_stand1;
 	spr_stand2		= spr_pl_stand2;
 	spr_walk		= spr_pl_walk;

@@ -24,13 +24,13 @@ function sc_pl_control()
 			can_jump	= false;
 			speed_y		= -6;
 		}
-		if (sc_input(7))
+		if (sc_input(9))
 		{
 			sc_pl_set_action(sc_pl_atk_soul);
 		}
 	}
 	else if (ind_state == 20)
 	{
-		ind_atk_sc();
+		ind_act_sc();
 	}
 }

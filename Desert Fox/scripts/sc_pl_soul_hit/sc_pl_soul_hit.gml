@@ -4,7 +4,7 @@ function sc_pl_soul_hit(_col)
 {
 	with (_col)
 	{
-		if (global.ally[0][ind_ally] == 0)
+		if (global.ally[0][ind_ally] == 0 || ind_hp <= 0)
 		{
 			return false;
 		}

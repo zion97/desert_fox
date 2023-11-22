@@ -49,7 +49,7 @@ function sc_ai_de1()
 	}
 	else if (ind_state == 12)
 	{
-		ai_de1_atk1();
+		ind_atk_sc();
 	}
 	else if (ind_state == 13)
 	{
