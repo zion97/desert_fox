@@ -26,7 +26,7 @@ function sc_pl_control()
 		}
 		if (sc_input(9))
 		{
-			sc_pl_set_action(sc_pl_atk_soul);
+			sc_pl_set_action(sc_pl_atk_soul_in);
 		}
 	}
 	else if (ind_state == 20)

@@ -4,3 +4,13 @@ function sc_pl_hug_in()
 {
 
 }
+
+function sc_pl_hug()
+{
+	
+}
+
+function sc_pl_hug_out()
+{
+	
+}

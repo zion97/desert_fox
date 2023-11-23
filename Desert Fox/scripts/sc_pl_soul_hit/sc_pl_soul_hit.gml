@@ -18,7 +18,7 @@ function sc_pl_soul_hit(_col)
 	
 	with (global.pl_id)
 	{
-		ind_action2_sc	= sc_pl_atk_soul2;
+		ind_action2_sc	= sc_pl_atk_soul;
 		ind_process		= 0;
 		ind_control		= 1;
 	}
