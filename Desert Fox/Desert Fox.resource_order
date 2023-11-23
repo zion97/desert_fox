@@ -74,10 +74,10 @@
     {"name":"player sprite","order":5,"path":"folders/Sprites/player sprite.yy",},
     {"name":"atk move","order":2,"path":"folders/Sprites/player sprite/atk move.yy",},
     {"name":"basic move","order":1,"path":"folders/Sprites/player sprite/basic move.yy",},
+    {"name":"hug move","order":3,"path":"folders/Sprites/player sprite/hug move.yy",},
     {"name":"Ultimate Camera","order":1,"path":"folders/Sprites/Ultimate Camera.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"hug move","order":3,"path":"folders/Sprites/player sprite/hug move.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"uc_set_debug_mode","order":3,"path":"scripts/uc_set_debug_mode/uc_set_debug_mode.yy",},

@@ -86,10 +86,10 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player sprite","folderPath":"folders/Sprites/player sprite.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"atk move","folderPath":"folders/Sprites/player sprite/atk move.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"basic move","folderPath":"folders/Sprites/player sprite/basic move.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"hug move","folderPath":"folders/Sprites/player sprite/hug move.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ultimate Camera","folderPath":"folders/Sprites/Ultimate Camera.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"hug move","folderPath":"folders/Sprites/player sprite/hug move.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"controllerblacklist.csv","CopyToMask":-1,"filePath":"datafiles",},
