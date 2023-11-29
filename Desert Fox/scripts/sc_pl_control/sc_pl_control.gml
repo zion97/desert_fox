@@ -19,6 +19,17 @@ function sc_pl_control()
 			dir = 1;
 			sc_pl_run();
 		}
+		if (sc_input(4))
+		{
+			if (sc_input(0, 1))
+			{
+				sc_pl_set_action(sc_pl_atk_up);
+			}
+			else
+			{
+				sc_pl_set_action(sc_pl_atk);
+			}
+		}
 		if (sc_input(5) && can_jump < ind_jump)
 		{
 			can_jump++;

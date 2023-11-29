@@ -20,6 +20,8 @@ function sc_pl_create()
 	spr_hit			= spr_pl_hit;
 	spr_die			= spr_pl_die;
 	
+	ind_combo		= 0;
+	
 	global.pl_id	= id;
 	
 }
