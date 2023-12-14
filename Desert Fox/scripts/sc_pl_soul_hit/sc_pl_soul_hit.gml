@@ -14,6 +14,20 @@ function sc_pl_soul_hit(_col)
 		
 		ind_control			= 1;
 		ind_state			= 0;
+		
+		array_copy(global.ally[1], 0, global.ally[ind_ally], 0, 10);
+		//global.ally[1]		= global.ally[ind_ally];
+		global.ally[1][0]	= 0;
+		global.ally[1][1]	= 0;
+		global.ally[ind_ally][1] = 0;
+		for (var _i = 2; _i < 10; _i++)
+		{
+			if (global.ally[1][_i] == 0)
+			{
+				global.ally[1][_i] = 1;
+			}
+		}
+		ind_ally = 1;
 	}
 	
 	with (global.pl_id)

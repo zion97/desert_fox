@@ -8,7 +8,7 @@ function sc_character_create()
 	ind_walk_spd	= 1.5;			//걷기 속도
 	ind_run_spd		= 3.0;			//달리기 속도
 	ind_ally		= 1;			//피아식별 변수
-	ind_ad_width	= 250;			//몹 에드 너비
+	ind_ad_width	= 150;			//몹 에드 너비
 	ind_ad_height	= 100;			//몹 에드 높이
 	ind_ad_delay	= 60;			//몹 조우 대기
 	ind_hit_max		= 0;			//경직치
@@ -17,6 +17,7 @@ function sc_character_create()
 	//동작 코드
 	ind_action1_sc	= sc_dump;		//hp > 0일 때 동작 코드 1	플레이어는 제어,	몹은 ai
 	ind_die_sc		= sc_dump;		//hp < 0일 때 동작 코드
+	ind_die_set_sc	= sc_dump;		//사망 시 변수 처리 코드
 	ind_atk_sc		= sc_dump;
 	
 	ind_action2_sc	= sc_dump;		//hp > 0일 때 동작 코드 2	플레이어는 ai,	몹은 제어

@@ -13,6 +13,7 @@ function sc_mob_bandit01_data()
 	
 	ind_action2_sc	= sc_ai_pl_control;
 	ind_die_sc		= sc_ai_die_4;
+	ind_die_set_sc	= sc_mob_die_set;
 	
 	spr_stand1		= spr_bandit01_stand1;
 	spr_stand2		= spr_bandit01_stand2;

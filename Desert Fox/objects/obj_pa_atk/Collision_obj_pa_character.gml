@@ -11,6 +11,11 @@ with (other)
 		if (other.atk_hit_array[_i] == id)	return;
 	}
 	
+	if (global.ally[other.ind_ally][ind_ally] == 1)	
+	{
+		global.ally[other.ind_ally][ind_ally] = 2;
+		global.ally[ind_ally][other.ind_ally] = 2;
+	}
 	other.atk_hit_array[other.atk_hit_sum] = id;
 	other.atk_hit_sum++;
 }

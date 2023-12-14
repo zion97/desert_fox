@@ -31,6 +31,7 @@ function sc_character_step()
 			ind_state	= -1;
 			ind_die		= true;
 			speed_x		= 0;
+			ind_die_set_sc();
 		}
 		ind_die_sc();
 	}
