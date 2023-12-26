@@ -4,19 +4,42 @@ function sc_ai_pl_control()
 {
 	if (ind_state == 0 || ind_state == 10)
 	{
-		sc_character_stand2();
-		speed_x		= 0;
+		if (sc_input(2,1) && sc_input(3,1))
+		{
+			if (sc_input(2))
+			{
+				ind_move = -1;
+			}
+			if (sc_input(3))
+			{
+				ind_move = 1;
+			}
+		}
+		else if (sc_input(2,1) && !sc_input(3,1))
+		{
+			ind_move = -1;	
+		}
+		else if (!sc_input(2,1) && sc_input(3,1))
+		{
+			ind_move = 1;
+		}
+		else
+		{
+			ind_move	= 0;
+		}
 		
-		if (sc_input(2,1))
+		
+		if (ind_move == 0)
 		{
-			dir = -1;
-			sc_character_run();
+			sc_character_stand2();
+			speed_x		= 0;
 		}
-		if (sc_input(3,1))
+		else
 		{
-			dir = 1;
 			sc_character_run();
+			dir = ind_move;
 		}
+		
 		if (sc_input(5) && can_jump < ind_jump)
 		{
 			can_jump++;
