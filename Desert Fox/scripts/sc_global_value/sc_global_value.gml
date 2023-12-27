@@ -10,5 +10,7 @@ function sc_global_value()
 	global.pl_id		= noone;
 	global.target_id	= noone;
 	
+	global.sig			= array_create(10, false);
+	
 	sc_ally_set();
 }

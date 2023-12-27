@@ -33,9 +33,6 @@ function sc_character_create()
 	spr_die			= spr_dump;		//사망
 	spr_backstep	= spr_dump;		//백스텝
 	
-	//캐릭터 정보 초기화 코드
-	c_create_sc();
-	
 	//AI 제어용 변수
 	ind_ad_target	= noone;		//공격 목표 인스턴스
 	ind_ad_index	= -1;			//공격 목표 수치
@@ -51,4 +48,7 @@ function sc_character_create()
 	can_jump		= 0;			//점프 가능 여부
 	ind_jump		= 1;			//점프 가능 횟수
 	ind_move		= 0;			//플레이어 조종 시 좌우 이동
+	
+	//캐릭터 정보 초기화 코드
+	c_create_sc();
 }

@@ -8,7 +8,8 @@ function sc_pl_create()
 	ind_run_spd		= 3.0;
 	ind_ally		= 0;
 	
-	ind_action1_sc	= sc_pl_control;
+	//ind_action1_sc	= sc_pl_control;
+	ind_action2_sc	= sc_pl_control;
 	ind_die_sc		= sc_ai_die_7;
 	
 	ind_act_sc		= sc_dump;
@@ -21,6 +22,7 @@ function sc_pl_create()
 	spr_die			= spr_pl_die;
 	
 	ind_combo		= 0;
+	ind_control		= 1;
 	
 	global.pl_id	= id;
 	

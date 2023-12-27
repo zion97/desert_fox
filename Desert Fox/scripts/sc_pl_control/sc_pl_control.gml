@@ -2,8 +2,6 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_pl_control()
 {
-	
-	
 	if (ind_state == 0 || ind_state == 10)
 	{
 		

@@ -7,7 +7,7 @@ function sc_ai_soul_back()
 	
 	with (global.pl_id)
 	{
-		ind_control		= 0;
+		ind_control		= 1;
 		sc_pl_set_action(sc_pl_atk_soul_out)
 	}
 }
