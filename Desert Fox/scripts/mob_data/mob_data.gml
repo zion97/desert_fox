@@ -48,3 +48,28 @@ function sc_mob_ev_knight01_data()
 	spr_die			= spr_bandit01_die;
 	spr_backstep	= spr_bandit01_backstep;
 }
+
+function sc_mob_slime01_data()
+{
+	ind_hp_max		= 80;
+	ind_hp			= 80;
+	ind_walk_spd	= 1.5;
+	ind_run_spd		= 3.0;
+	ind_ally		= 4;
+	ind_col_half	= false;
+	
+	ind_action1_sc	= sc_ai_de1;
+	ind_atk_sc		= sc_bandit1_atk1;
+	
+	ind_action2_sc	= sc_ai_pl_control;
+	ind_die_sc		= sc_ai_die_4;
+	ind_die_set_sc	= sc_mob_die_set;
+	
+	spr_stand1		= spr_slime01_stand1;
+	spr_stand2		= spr_slime01_stand2;
+	spr_walk		= spr_slime01_walk;
+	spr_run			= spr_slime01_run;
+	spr_hit			= spr_bandit01_hit;
+	spr_die			= spr_bandit01_die;
+	spr_backstep	= spr_bandit01_backstep;
+}

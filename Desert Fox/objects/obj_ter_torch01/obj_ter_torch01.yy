@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_torch",
+  "name": "obj_ter_torch01",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [

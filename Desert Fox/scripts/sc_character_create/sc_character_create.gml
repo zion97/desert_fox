@@ -13,6 +13,7 @@ function sc_character_create()
 	ind_ad_delay	= 60;			//몹 조우 대기
 	ind_hit_max		= 0;			//경직치
 	ind_stun_max	= 120;			//기절치
+	ind_col_half	= true;			//obstacle_half와의 충돌 여부
 	
 	//동작 코드
 	ind_action1_sc	= sc_dump;		//hp > 0일 때 동작 코드 1	플레이어는 제어,	몹은 ai
