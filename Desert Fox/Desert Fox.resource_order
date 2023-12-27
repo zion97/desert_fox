@@ -92,6 +92,8 @@
     {"name":"bandit01","order":1,"path":"folders/Sprites/mob sprite/bandit/bandit01.yy",},
     {"name":"evil knight","order":2,"path":"folders/Sprites/mob sprite/evil knight.yy",},
     {"name":"evil knight 01","order":1,"path":"folders/Sprites/mob sprite/evil knight/evil knight 01.yy",},
+    {"name":"slime","order":3,"path":"folders/Sprites/mob sprite/slime.yy",},
+    {"name":"slime01","order":1,"path":"folders/Sprites/mob sprite/slime/slime01.yy",},
     {"name":"player sprite","order":5,"path":"folders/Sprites/player sprite.yy",},
     {"name":"atk move","order":2,"path":"folders/Sprites/player sprite/atk move.yy",},
     {"name":"basic move","order":1,"path":"folders/Sprites/player sprite/basic move.yy",},
@@ -100,8 +102,6 @@
     {"name":"Ultimate Camera","order":1,"path":"folders/Sprites/Ultimate Camera.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"slime","order":3,"path":"folders/Sprites/mob sprite/slime.yy",},
-    {"name":"slime01","order":1,"path":"folders/Sprites/mob sprite/slime/slime01.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"uls_collider_define_shape_custom","order":1,"path":"scripts/uls_collider_define_shape_custom/uls_collider_define_shape_custom.yy",},

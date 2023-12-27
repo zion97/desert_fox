@@ -104,6 +104,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"bandit01","folderPath":"folders/Sprites/mob sprite/bandit/bandit01.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"evil knight","folderPath":"folders/Sprites/mob sprite/evil knight.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"evil knight 01","folderPath":"folders/Sprites/mob sprite/evil knight/evil knight 01.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"slime","folderPath":"folders/Sprites/mob sprite/slime.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"slime01","folderPath":"folders/Sprites/mob sprite/slime/slime01.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player sprite","folderPath":"folders/Sprites/player sprite.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"atk move","folderPath":"folders/Sprites/player sprite/atk move.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"basic move","folderPath":"folders/Sprites/player sprite/basic move.yy",},
@@ -112,8 +114,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ultimate Camera","folderPath":"folders/Sprites/Ultimate Camera.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"slime","folderPath":"folders/Sprites/mob sprite/slime.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"slime01","folderPath":"folders/Sprites/mob sprite/slime/slime01.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"controllerblacklist.csv","CopyToMask":-1,"filePath":"datafiles",},
