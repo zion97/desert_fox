@@ -40,6 +40,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"character script","folderPath":"folders/Scripts/character script.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"game data","folderPath":"folders/Scripts/game data.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"game input","folderPath":"folders/Scripts/game input.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"interaction obj script","folderPath":"folders/Scripts/interaction obj script.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"physics script","folderPath":"folders/Scripts/physics script.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player","folderPath":"folders/Scripts/player.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ultimate Camera","folderPath":"folders/Scripts/Ultimate Camera.yy",},
@@ -114,7 +115,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ultimate Camera","folderPath":"folders/Sprites/Ultimate Camera.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"interaction obj script","folderPath":"folders/Scripts/interaction obj script.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"controllerblacklist.csv","CopyToMask":-1,"filePath":"datafiles",},

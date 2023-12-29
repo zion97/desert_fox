@@ -29,6 +29,7 @@
     {"name":"character script","order":5,"path":"folders/Scripts/character script.yy",},
     {"name":"game data","order":3,"path":"folders/Scripts/game data.yy",},
     {"name":"game input","order":11,"path":"folders/Scripts/game input.yy",},
+    {"name":"interaction obj script","order":13,"path":"folders/Scripts/interaction obj script.yy",},
     {"name":"physics script","order":2,"path":"folders/Scripts/physics script.yy",},
     {"name":"player","order":9,"path":"folders/Scripts/player.yy",},
     {"name":"Camera Effects","order":1,"path":"folders/Scripts/Ultimate Camera/Camera Effects.yy",},
@@ -102,7 +103,6 @@
     {"name":"Ultimate Camera","order":1,"path":"folders/Sprites/Ultimate Camera.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"interaction obj script","order":13,"path":"folders/Scripts/interaction obj script.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"uls_collider_define_shape_custom","order":1,"path":"scripts/uls_collider_define_shape_custom/uls_collider_define_shape_custom.yy",},
