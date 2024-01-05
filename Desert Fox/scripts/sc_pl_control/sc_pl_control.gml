@@ -55,7 +55,7 @@ function sc_pl_control()
 		if (sc_input(5) && can_jump < ind_jump)
 		{
 			can_jump++;
-			speed_y		= -6;
+			speed_y		= ind_jump_spd;
 		}
 		if (sc_input(9))
 		{

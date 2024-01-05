@@ -24,6 +24,8 @@ function sc_pl_create()
 	ind_combo		= 0;
 	ind_control		= 1;
 	
+	ind_jump_spd	= -6;
+	
 	global.pl_id	= id;
 	
 }

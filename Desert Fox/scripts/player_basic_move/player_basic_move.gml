@@ -2,26 +2,50 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_pl_stand()
 {
-	if (ind_state == 0)
+	if (is_jump)
 	{
-		sc_character_stand1();
+		sc_pl_jump();
 	}
-	else if (ind_state == 10)
+	else
 	{
-		sc_character_stand2();
+		if (ind_state == 0)
+		{
+			sprite_index	= spr_stand1;
+		}
+		else if (ind_state == 10)
+		{
+			sprite_index	= spr_stand2
+		}
 	}
 }
 
 function sc_pl_run()
 {
-	if (ind_state == 0)
+	if (is_jump)
 	{
-		sc_character_walk();
+		sc_pl_jump();
 	}
-	else if (ind_state == 10)
+	else
 	{
-		sc_character_run();
+		if (ind_state == 0)
+		{
+			sprite_index	= spr_walk;
+		}
+		else if (ind_state == 10)
+		{
+			sprite_index	= spr_run;
+		}
 	}
+	
+	speed_x			= dir * ind_run_spd;
+}
+
+function sc_pl_jump()
+{
+	var _jump		= clamp(round((speed_y - ind_jump_spd - 4)), 0, 4);
+		
+	sprite_index	= spr_pl_jump;
+	image_index		= _jump
 }
 
 function sc_pl_set_action(_script, _process = 0)

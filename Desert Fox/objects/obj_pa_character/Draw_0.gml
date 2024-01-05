@@ -2,7 +2,7 @@
 // 이 에디터에 코드를 작성할 수 있습니다
 
 draw_self();
-draw_text(x, y, ind_ally);
+draw_text(x, y+48, ind_ally);
 
 
 

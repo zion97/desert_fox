@@ -38,22 +38,22 @@ function sc_pl_atk()
 	}
 	else if (ind_process < 48)
 	{
-		image_index	= 0;
+		image_index	= 4;
 		speed_x		= 3*dir;
 	}
 	else if (ind_process < 56)
 	{
-		image_index	= 1;
+		image_index	= 5;
 		speed_x		= 3*dir;
 	}
 	else if (ind_process < 64)
 	{
-		image_index	= 2;
-		if (ind_process == 56)	sc_atk_inst(spr_pl_atk_ef1 ,20, 20);
+		image_index	= 6;
+		if (ind_process == 56)	sc_atk_inst(spr_pl_atk_ef2 ,20, 20);
 	}
 	else if (ind_process < 72)
 	{
-		image_index	= 3;
+		image_index	= 7;
 		if (ind_combo	== 4)
 		{
 			ind_combo	= 0;
