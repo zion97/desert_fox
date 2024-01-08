@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sc_pl_atk_soul_out()
 {
-	sprite_index	= spr_pl_soul;
+	sprite_index	= spr_pl_soul_in;
 	ind_sa			= 2;
 	
 	if (ind_process < 6)

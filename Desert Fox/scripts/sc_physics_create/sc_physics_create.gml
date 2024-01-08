@@ -8,4 +8,5 @@ function sc_physics_create()
 	dir			= 1;
 	grav_index	= 0.2;
 	is_tile		= true;
+	is_pause	= true;
 }

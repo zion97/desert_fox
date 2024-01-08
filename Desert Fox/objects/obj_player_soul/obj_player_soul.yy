@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_pl_soul_ef",
-    "path": "sprites/spr_pl_soul_ef/spr_pl_soul_ef.yy",
+    "name": "spr_pl_soul_in_ef",
+    "path": "sprites/spr_pl_soul_in_ef/spr_pl_soul_in_ef.yy",
   },
   "spriteMaskId": null,
   "visible": true,
