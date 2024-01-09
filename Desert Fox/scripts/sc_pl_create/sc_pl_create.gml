@@ -25,6 +25,7 @@ function sc_pl_create()
 	ind_control		= 1;
 	
 	ind_jump_spd	= -6;
+	ind_soul_obj	= noone;
 	
 	global.pl_id	= id;
 	

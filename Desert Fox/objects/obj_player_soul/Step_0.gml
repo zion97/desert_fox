@@ -1,5 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+with (global.pl_id)
+{
+	other.image_index	= image_index;
+	other.x				= x;
+	other.y				= y;
+}
+
+/*
 if (ind_process < 16)
 {
 	image_index	= 0;
@@ -26,3 +35,4 @@ else
 
 
 ind_process++;
+*/
