@@ -47,9 +47,9 @@ function sc_pl_atk_soul_in()
 	{
 		image_index	= 6;
 		var _list	= ds_list_create();
-		if (ind_process == 24 && sc_pl_atk_soul_check())
+		if (ind_process == 24)
 		{
-			instance_create_depth(x, y, depth, obj_player_soul_col);
+			sc_pl_atk_soul_check();
 		}
 	}
 	else if (ind_process < 32)

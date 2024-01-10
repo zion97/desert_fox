@@ -4,11 +4,12 @@ function sc_pl_soul_hit(_col)
 {
 	with (_col)
 	{
+		/*
 		if (global.ally[0][ind_ally] == 0 || ind_hp <= 0)
 		{
 			return false;
 		}
-		
+		*/
 		global.target_id	= id;
 		global.cam_mode		= 1;
 		
@@ -32,11 +33,12 @@ function sc_pl_soul_hit(_col)
 	
 	with (global.pl_id)
 	{
-		ind_action1_sc	= sc_pl_atk_soul_on;
-		ind_process		= 0;
-		ind_control		= 0;
+		is_pause = true;
 	}
 	
+	ds_list_destroy(ind_list);
+	
 	global.pause	= 0;
-	return true;
+	
+	instance_destroy();
 }
