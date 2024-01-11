@@ -3,7 +3,7 @@
 function sc_pl_atk_soul_check()
 {
 	var _list	= ds_list_create();
-	var _num	= collision_rectangle_list(x-320, y-180, x+320, y+180, obj_pa_character, true, true, _list, true)
+	var _num	= collision_rectangle_list(x-280, y-140, x+280, y+140, obj_pa_character, true, true, _list, false);
 	
 	if (_num == 0)
 	{
